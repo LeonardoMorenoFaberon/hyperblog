@@ -9,15 +9,27 @@ body{
 
 #container{
     width:70%;
-    padding: 1em;
+    /* padding: 1em; */
+
     text-align: left;
     border:1px solid black;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 #container h1{
     font-size: 20px;
 }
 
-
-
+#cabecera{
+    color:aliceblue;
+    background-color: rgb(22, 22, 136);
+    box-shadow: -9px 4px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -9px 4px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px 4px 10px 0px rgba(0,0,0,0.75);
+padding:5px 0 5px 15px ;
+}
+#cabeceraSpan{
+    font-size: larger;
+    font-weight: bold;
+    padding-right: 20px;
+}
