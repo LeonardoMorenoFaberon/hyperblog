@@ -1,16 +1,17 @@
 body{
     color: blue;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 #container{
     width:70%;
-    /* padding: 1em; */
-
+    background-color: white;
+    min-height: 500px;
     text-align: left;
     border:1px solid black;
     margin: 15px auto;
@@ -24,12 +25,25 @@ body{
     color:aliceblue;
     background-color: rgb(22, 22, 136);
     box-shadow: -9px 4px 10px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: -9px 4px 10px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -9px 4px 10px 0px rgba(0,0,0,0.75);
-padding:5px 0 5px 15px ;
-}
+    -webkit-box-shadow: -9px 4px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 4px 10px 0px rgba(0,0,0,0.75);
+    padding:0.5em 0 0.5em 2em ;
+    }
 #cabeceraSpan{
     font-size: larger;
     font-weight: bold;
     padding-right: 20px;
+}
+#cabeceraTexto{
+    display: inline-block;
+    position: relative;
+    top: -2em;
+}
+#cabeceraLogo{
+    display: inline-block;
+    width: auto;
+}
+#cabeceraLogo img{
+     width: 70px;
+     /* scale: 80%  ; */
 }
