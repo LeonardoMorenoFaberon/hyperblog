@@ -34,16 +34,10 @@ body{
     font-weight: bold;
     padding-right: 20px;
 }
-#cabeceraTexto{
-    display: inline-block;
-    position: relative;
-    top: -2em;
-}
-#cabeceraLogo{
-    display: inline-block;
-    width: auto;
-}
-#cabeceraLogo img{
-     width: 70px;
-     /* scale: 80%  ; */
+
+#footer{
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
