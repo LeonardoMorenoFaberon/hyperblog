@@ -2,6 +2,7 @@
 un blog ingreible del curso de git-github de platzi
 es lo que me hacia falta para triplicar mi salario y lanzarme a la industria de lana sintetica con Machine learning 
 >niñita
+
 En este curso veremos:
 * Todos los comandos de git
 * El flujo de trabajo en GitHub.
