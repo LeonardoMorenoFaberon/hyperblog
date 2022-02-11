@@ -14,7 +14,8 @@
                
                 <div id="cabeceraLogo">
                     <figure>
-                        <img src="imagenes/dragon.png" alt="">
+                        <img src="./imagenes/dragon.png" alt="">
+                        <!-- <img src="https://imgur.com/a/htRjejo" alt=""> -->
                     </figure>
                 </div>
               
@@ -24,7 +25,7 @@
                         </span> 
                         Tu blog de Maestro
                 </div>
-                
+
             </div>
 
 
@@ -40,7 +41,17 @@
                 por ahora
             </p>
             <p>
-              <img id="imagenEquipoTrabajo" src="./imagenes/equipo_de_trabajo.jpg" alt="">  
+
+                <!-- <a href="https://imgur.com/ubOXjJ2"> -->
+                    <img id="imagenEquipoTrabajo" src="https://i.imgur.com/ubOXjJ2.jpg" alt="">
+                <!-- </a> -->
+                <script>
+                        var ruta = (urlDeTuImagen_imgur)=>{
+                            var firstPart = urlDeTuImagen_imgur.replace("https://", "https://i.");
+                            var endPart = ".jpg";
+                            console.log( firstPart + endPart)
+                        }
+                </script>
             </p>
             <p>suscribete y dale like</p>
             <form action="#"></form>
