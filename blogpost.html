@@ -51,6 +51,31 @@
                             var endPart = ".jpg";
                             console.log( firstPart + endPart)
                         }
+
+                        var countTrue= 0;
+                        var countFalse= 0;
+
+                        function getArrOneOfThree(){
+                            arrA = [];
+                            let b =  Math.random();
+                            if(b<=1/3)         {return arrA=[1,0,0]}
+                            if(1/3<b && b<=2/3){return arrA=[0,1,0]}
+                            if(2/3<b && b<=1)  {return arrA=[0,0,1]}
+                        }
+
+                        function isFirstSelectionWin(option){
+                            return getArrOneOfThree()[option]==1;   
+                        }
+
+                        var cambiando = function(ciclosFor){
+                                for(let i=0; i<ciclosFor ; i++){
+                                    ( isFirstSelectionWin(0)==false )? countTrue++ : countFalse++
+                                }
+                                return {"changingWin":countTrue/ciclosFor*100 +"%"  , "ChanginLose":countFalse/ciclosFor*100 + "%"}
+                        }
+                        
+                        console.log(cambiando(10000000));
+
                 </script>
             </p>
             <p>suscribete y dale like</p>
