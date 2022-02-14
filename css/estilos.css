@@ -22,7 +22,12 @@ body{
     border:1px solid black;
     margin: 15px auto;
 }
-
+p{
+    padding-left: 1em;
+}
+h1{
+    padding-left: 1em;
+}
 #container h1{
     font-size: 20px;
 }
@@ -55,4 +60,16 @@ body{
     color: white;
     text-align: center;
     padding: 0.5em;
+}
+.tabulado4{
+   margin-left: 4em;
+}
+.tabulado6{
+    margin-left: 6em;
+}
+.red{
+    color: red;
+}
+.bold{
+    font-weight: bold;
 }

@@ -82,6 +82,65 @@
             <p>aca te dejo el comando arbolito que tanto usamos:</p>
             <p>alias arbolito="git log --all --graph --decorate --oneline"</p>
             <p>suscribete y dale like</p>
+            <p>MERGE : NOS PERMITE HACER UN COMMIT ENTRE UNA RAMA Y EL MASTER o mejor dicho entre la rama en la que estas 
+                y otra rama. </br>
+                 <div class="tabulado4">
+                    git checkout master</br>  
+                    git merge cabecera <span class="red bold space1">//esta es la clase que me voy a traer</span></br>    
+                    git status</br>       
+                    <div class="tabulado4">para ver los docs que te haz traido.</br> </div>
+                    git commit -am "ya resolvi el conflicto si hubo y explico los cambios como siempre"</br>	
+                 </div>  
+            </p>
+            <p>
+                AL HACER UN MERGE "JALAS" LA OTRA RAMA <br>
+                osea que te pones en la rama que estas trabajando y jalas la nueva rama   </p>
+
+            <p>                                
+                //************************************************** <br>
+                CREAR RAMA OSEA BRANCH : <br>
+                    para ello commiteas los documentos nuevos. <br>
+                //************************************************** <br>
+            </p>    
+            <p>
+                para archivos que ya les has hecho git add . previamente podemos hacer <br> 
+                git add . <br>
+                    y <br>
+                git commit -m "............."<br>
+            en un solo paso: <br>
+                <div class="tabulado4">git commit -am <br>
+                    <br>
+                
+                    git branch nombre_de_la_rama <br>
+                </div>
+            <p>//************************************************** <br></p>
+                <div class="tabulado4">
+                    git branch  <br>
+                    <div class="tabulado4">
+
+                        nos permite ver todas las ramas (branch) <br>
+                    </div>
+                </div>
+            <p>//************************************************** <br>   
+            </p>    
+        
+            <p>
+                //************************************************** <br>
+                        
+            CHERRY PICK <br>
+            <div class="tabulado4">
+                ESTE COMANDO NOS PERMITE COGER UN COMMIT DE OTRA RAMA (CON SU CAMBIO RESPECTIVO) Y TRAERLO A TU ACTUAL RAMA.
+                <br>
+                <div class="tabulado4">
+                    
+                git checkout master <br>
+                git cherry-pick 0b393e4  <br> 
+                    aca estas trayendo el cambio <span class="red bold">0b393e4</span> solo ese cambio  la rama master <br>
+                </div>
+            
+            </div>        
+            </p>
+
             <form action="#"></form>
             <label for="idLabelEmail"> Escribe tu correo de github</label>
             <input type="email" id="idlabelEmail" >
